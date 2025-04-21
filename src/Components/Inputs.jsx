@@ -95,8 +95,8 @@ const Inputs = () => {
         <div className='mt-5'>
             <button 
                 onClick={isCalculated ? reset : calculate} 
-                className='w-full sm:w-auto border rounded bg-green-500 text-white text-xl px-3 py-2 cursor-pointer'>
-                {isCalculated ? 'Reset' : 'Calculate Your Savings'}
+                className='w-full sm:w-auto border rounded bg-green-500 hover:bg-green-600 transition text-white text-xl px-3 py-2 cursor-pointer'>
+                {isCalculated ? 'Reset' : 'Calculate'}
             </button>
         </div>
         <div className='mt-4'>
