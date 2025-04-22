@@ -27,7 +27,10 @@ const appSlice = createSlice({
             state.inputs = {
                 numbers : '',
                 price : '', 
-                days : ''
+                days : '',
+                numberUnit: 'cigarette',
+                priceUnit: 'cigarette',
+                timeUnit: 'days'
             }, 
             state.totalSaved = null
         },

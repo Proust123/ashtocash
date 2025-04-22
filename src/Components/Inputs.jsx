@@ -37,7 +37,7 @@ const Inputs = () => {
                     <option value="cigarette">Cigarette per day</option>
                 </select>
                 <div className='flex flex-col'>
-                    <label htmlFor="daily">Daily smoked Cigarettes:</label>
+                    <label htmlFor="daily">Count:</label>
                     <input className='border rounded pl-3'
                         type="number"
                         name="numbers"
@@ -57,7 +57,7 @@ const Inputs = () => {
                     <option value="pack">Price per Pack</option>
                 </select>
                 <div className='flex flex-col'>
-                    <label htmlFor="price">Price per Cigarette:</label>
+                    <label htmlFor="price">Price:</label>
                     <input className='border rounded pl-3'
                         type="number"
                         name="price"
@@ -79,7 +79,7 @@ const Inputs = () => {
                     <option value="years">Years</option>
                 </select>
                 <div className='flex flex-col'>
-                    <label htmlFor="days">Smoke Free Days:</label>
+                    <label htmlFor="days">Smoke Free Count:</label>
                     <input className='border rounded pl-3'
                         type="number"
                         name="days"
