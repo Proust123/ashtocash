@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { calculatedPrice, emptyInputs, updateInputs } from '../Redux/appSlice'
 
+
 const Inputs = () => {
 
     const inp = useSelector((state) => state.allReducers.inputs)
@@ -27,8 +28,13 @@ const Inputs = () => {
     }
 
   return (
-    <div className='p-2 sm:p-10 w-full bg-white flex flex-col justify-between items-center'>
-        <div className='w-full sm:w-[80%] p-4 bg-amber-400 gap-5 grid grid-cols-1 lg:grid-cols-3 lg:gap-10'>
+    <div className='p-2 sm:p-10 w-full relative z-10 flex flex-col justify-between items-center'
+        
+    >
+        <div className="p-4 sm:p-10 w-full relative z-10 flex flex-col items-center justify-center gap-6">
+        <div className="w-full sm:w-[80%] bg-white/80 backdrop-blur-md rounded-xl shadow-lg p-6 grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+  
             <div className='flex flex-col gap-4 w-full '>
                 <select name="numberUnit" id="" className='border'
                     value={inp.numberUnit} onChange={handleChange}
@@ -92,6 +98,7 @@ const Inputs = () => {
                 </div>
             </div>
         </div>
+        </div>
         <div className='mt-5'>
             <button 
                 onClick={isCalculated ? reset : calculate} 
@@ -100,7 +107,7 @@ const Inputs = () => {
             </button>
         </div>
         <div className='mt-4'>
-            {money !== null ?  <h1>You have saved Pkr {money} in {inp.days} {inp.timeUnit}</h1> : (<h1 className='text-gray-500'>Enter values to calculate your savings</h1>)}
+            {money !== null ?  <h1 className='text-amber-400 text-lg'>You have saved Pkr {money} in {inp.days} {inp.timeUnit}</h1> : (<h1 className='text-amber-400 text-lg'>Enter values to calculate your savings</h1>)}
         </div>
     </div>
   )
