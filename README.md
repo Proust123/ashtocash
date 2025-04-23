@@ -1,12 +1,35 @@
-# React + Vite
+🚭 AshToCash – Quit Smoking, Track Your Savings 💰
+AshToCash is a simple yet powerful web app that calculates how much money you’ve saved by quitting smoking — built with love and purpose.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌱 Why I Built This
+More than 5 years ago, I quit smoking.
 
-Currently, two official plugins are available:
+To stay motivated, I used to calculate how much money I was saving every day, week, and month. It gave me purpose and helped me track my progress.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Back then, I never imagined I’d become a web developer — but here I am today, building AshToCash, the tool I wish I had during my own journey.
 
-## Expanding the ESLint configuration
+🚀 Features
+✅ Choose cigarettes or packs per day
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Set price per unit (cigarette or pack)
+
+✅ Track smoke-free days, weeks, months, or years
+
+✅ Instant calculation of money saved
+
+✅ Fully responsive design
+
+✅ Built-in error handling and reset functionality
+
+✅ Personal story-driven UI
+
+🛠 Tech Stack
+React.js (Functional components + hooks)
+
+Redux Toolkit (State management)
+
+Tailwind CSS (Styling)
+
+React Router (Routing)
+
+React Hot Toast (Error notifications)
